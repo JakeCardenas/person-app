@@ -26,7 +26,7 @@ export default async function Home() {
 
       {/* LIST OF PEOPLE */}
       <div className="flex flex-col gap-4">
-        {people.map((person) => (
+        {people.map((person: any) => (
           <div key={person.id}
             className="border p-4 rounded flex justify-between items-center">
             <div>
